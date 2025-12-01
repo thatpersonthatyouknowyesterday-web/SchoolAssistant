@@ -1,0 +1,53 @@
+1. Understanding a Full-Stack Chatbot Architecture
+Modern chatbot systems use a client → backend API → AI model structure.
+The backend is the mediator that:
+Accepts user messages 
+Preprocesses input
+Retrieves relevant context (FAQ, vector DB, etc.)
+Sends a composed prompt to the LLM
+Returns a structured response
+This separation improves security, scalability, and allows for plugging in model updates without touching the frontend.
+2. Building an Embedding + Vector Retrieval Layer
+Creating vector embeddings from text (FAQ questions + answers).
+Storing them in a vector database such as:
+Pinecone
+ChromaDB
+FAISS (local)
+Vector search retrieves semantically similar questions when a user types something unclear.
+This becomes the foundation for your model’s retrieval-augmented generation (RAG).
+Key Concepts Learned:
+Cosine similarity
+Chunking data
+Metadata structures: { id, question, answer, embedding }
+3. Designing REST API Endpoints
+Learned how to structure backend endpoints for a chatbot:
+/ask
+Accepts:
+{ "query": "Where is the library?" }
+Returns:
+{ "response": "The library is..." }
+/embed-data
+For loading or updating FAQ dataset.
+/health
+Basic ping to ensure the backend is active.
+4. Proper Request-Response Error Handling
+Using try/except blocks in Python FastAPI to return structured errors.
+Example:
+{ "error": "Vector DB unreachable" }
+On React: showing user-friendly messages instead of crashes.
+5. Using React to Build a Dynamic Frontend
+Learned patterns:
+useState for message storage
+Chat bubbles that map over message arrays
+Integrating a “loading” indicator
+Using fetch() or Axios for clean API calls
+Auto-scroll behavior in chat windows
+6. Persisting Conversations
+Learned how to store conversations either client-side or server-side.
+Enables “context threads” so the chatbot behaves more coherently over multiple messages.
+7. How to Manage Environment Variables
+Never commit API keys.
+Learned to use:
+.env.local for React
+.env for Python
+GitHub best practice: push .env.example showing variable names only.
