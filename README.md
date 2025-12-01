@@ -8,4 +8,4 @@ AI assistant that serves as a Campus Assistance bot, planned to help students an
 - Created 200+ FAQ entries for training and retrieval.
 - Built documentation describing architecture and data flow.
 
-Video Notes recorded: VideoNotes
+Video Notes recorded: [VideoNotes](https://github.com/thatpersonthatyouknowyesterday-web/SchoolAssistant/blob/main/VideoNotes)
