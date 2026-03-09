@@ -9,3 +9,14 @@ AI assistant that serves as a Campus Assistance bot, planned to help students an
 - Built documentation describing architecture and data flow.
 
 Video Notes recorded: [VideoNotes](https://github.com/thatpersonthatyouknowyesterday-web/SchoolAssistant/blob/main/VideoNotes)
+
+3/9 Progress Update
+- Connected my backend to a temporary working frontend through FastAPI
+- Questions for training stored in data.json
+- Tried database connection with Postgres earlier but had issues collaborating with MacOS
+- Building frontend now through Rio app (almost complete)
+- Finished learning about CRUD operations, dockers, and microservices
+- Need to set up a proper database connection
+- Need to Create a proper login page and implement OAuth2 authentication
+- Need to implement logging python mechanics
+- Plan to finish and have project demo ready in roughly a month (4/9)
