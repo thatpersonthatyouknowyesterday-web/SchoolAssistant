@@ -20,3 +20,10 @@ Video Notes recorded: [VideoNotes](https://github.com/thatpersonthatyouknowyeste
 - Need to Create a proper login page and implement OAuth2 authentication
 - Need to implement logging python mechanics
 - Plan to finish and have project demo ready in roughly a month (4/9)
+
+3/16
+- Finished creating the frontend through a Rio website
+- May rely back on FastAPI for OAuth2 authentication abilities
+- Attempting to reintegrate a real DB connection with my data through SQLite and then a potential transfer to Postgres if necessary and allowed
+- Need to implement python logging and a login page (personalized security)
+- Still on pace to finish by 4/9
