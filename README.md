@@ -27,3 +27,10 @@ Video Notes recorded: [VideoNotes](https://github.com/thatpersonthatyouknowyeste
 - Attempting to reintegrate a real DB connection with my data through SQLite and then a potential transfer to Postgres if necessary and allowed
 - Need to implement python logging and a login page (personalized security)
 - Still on pace to finish by 4/9
+
+4/7
+Preparing project for final dem
+- Tested frontend and backend integration (works!!)
+- Fixed minor bugs and improved stability
+- Cleaned up UI for presentation
+- Updated project structure and documentation
